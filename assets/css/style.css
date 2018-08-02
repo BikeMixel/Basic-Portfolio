@@ -1,5 +1,6 @@
 *{box-sizing: border-box;
 }
+/* You can probably get away with just making the middle section the wrapper */
 body{font-size: 28px;
         line-height: 32px;
         font-family: Arial, Helvetica, sans-serif;
@@ -77,10 +78,11 @@ body{font-size: 28px;
         padding-bottom: 50px;
         font-size: 18px;
 }
-/* a:link{color: rgb(43, 190, 176)
+a:link{color: black;
 }
-a:visited{color: royalblue;
-} */
+a:visited{color: rgb(43, 190, 176);
+} 
+a:hover{color: rgb(175, 165, 165)}
 /* for portfolio */
 .Portfolio_images{padding-left: 272px;
 }
