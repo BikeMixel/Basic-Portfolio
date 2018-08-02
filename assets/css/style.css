@@ -1,0 +1,70 @@
+*{box-sizing: border-box;
+}
+body{font-size: 28px;
+        line-height: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        z-index: 0;
+        padding-left: 2.5in;
+        padding-right: 2.5in;
+        background-image: url("../images/hypnotize.png");
+}
+.wrapper{z-index: 1;
+            width: 100%;
+            /* height: */
+            margin: 0 auto;
+            background-image: url("../images/hypnotize.png");
+            background: white;
+}
+#head1{background: rgb(43, 190, 176);
+    height: 100px;
+    color: white;
+    padding-top: .35in;
+    padding-right: .15in;
+    padding-left: .15in;
+    top: 0;
+    font-size: 36px;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: .5in;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#links{border: 2px dashed purple;
+        text-align: right;
+        padding-right: .75in;
+        padding-top: .25in;
+        background: lightgray;
+        color: rgb(175, 165, 165);
+        height: 100px;
+        font-size: 20px;
+        margin-bottom: .25in;
+        word-spacing: 5ch;
+        /* a: visited:  */
+}
+#links.margin-bottom{visibility: hidden}
+.middle{word-wrap: break-word;
+        font-size: 15px;
+        height: 515px;
+        border: 2px dotted black;
+}
+#head2{/*border: 2px double yellow; */
+    margin-top: 15px;
+    font-size: 32px;
+    padding-left: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(43, 190, 176);
+    border-bottom-style: dashed;
+    border-bottom-color: gray;
+}
+#about_image{float:left;
+            padding-left: .25in;
+            padding-top: .11in;
+}
+#about_text{padding-left: 3.5in;
+            padding-right: .25in;
+            margin: 0;
+}
+a:link{color: rgb(43, 190, 176)
+}
+a:visited{color: royalblue;
+}
