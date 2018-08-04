@@ -1,6 +1,5 @@
 *{box-sizing: border-box;
 }
-/* You can probably get away with just making the middle section the wrapper */
 body{font-size: 28px;
         line-height: 32px;
         font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +31,6 @@ body{font-size: 28px;
         font-size: 20px;
         margin-bottom: .15in;
         word-spacing: 5ch;
-        border-color: gray;
 }
 .wrapper{word-wrap: break-word;
         font-size: 14px;
@@ -43,7 +41,7 @@ body{font-size: 28px;
         width: 100%;
         margin: 0 auto;
 }
-#head2{margin-top: 15px;
+.head2{margin-top: 15px;
         margin-bottom: 18px;
         font-size: 32px;
         padding-left: 75px;
@@ -74,22 +72,113 @@ body{font-size: 28px;
         padding-bottom: 50px;
         font-size: 18px;
 }
-a:link{color: black;
+a:link{color: rgb(43, 190, 176);
+        text-decoration: none;
 }
 a:visited{color: rgb(43, 190, 176);
 } 
-a:hover{color: rgb(175, 165, 165)}
+a:hover{color: rgb(175, 165, 165);
+        text-decoration: underline;
+}
 /* for portfolio */
+.container1 {position: relative;
+        width: 50%;
+        max-width: 300px;
+}
+.image1 {display: block;
+        width: 205px;
+        height: 205px;
+}
+.image1:hover{opacity: .5;
+}
+.overlay1 {position: absolute; 
+        background: rgb(43, 190, 176);
+        width: 205px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+}
+.container1:hover .overlay1 {opacity: 1;
+}
+.container2{position: relative;
+        width: 50%;
+        max-width: 300px;
+        float: left;
+        padding-left: 200px;
+}
+.image2{display: block;
+        width: 205px;
+        height: 205px;
+}
+.image2:hover{opacity: .5;
+}
+.overlay2{position: absolute; 
+        background: rgb(43, 190, 176);
+        width: 205px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+}
+.container2:hover .overlay2 {opacity: 1;
+}
+.container3 {position: relative;
+        width: 50%;
+        max-width: 300px;
+        float: left;
+}
+.image3{display: block;
+        width: 205px;
+        height: 205px;
+}
+.image3:hover{opacity: .5;}
+.overlay3{
+        position: absolute; 
+        background: rgb(43, 190, 176);
+        width: 205px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        float: left;
+}
+.container3:hover .overlay3{opacity: 1;
+}
+.container4 {position: relative;
+        width: 50%;
+        max-width: 300px;
+        padding-left: 103px;
+        float:left;
+}
+.image4{display: block;
+        width: 205px;
+        height: 205px;
+}
+.image4:hover{opacity: .5;
+}
+.overlay4{position: absolute; 
+        background: rgb(43, 190, 176);
+        width: 205px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        float: left;
+}
+.container4:hover .overlay4 {opacity: 1;
+}
 .Portfolio_images{padding-left: 175px;
-                        padding-right: 175px;
+                  padding-right: 175px;
 }
 img:nth-child(even){float: right;
 }
-img:nth-child(odd){float: left;}
-/* .top_images{float: left;
+img:nth-child(odd){float: left;
 }
-.bottom_images{float: left;
-} */
 /* for contact */
 .contact_form{padding-left:100px;
                 padding-right: 680px;
@@ -101,11 +190,6 @@ img:nth-child(odd){float: left;}
 #message{width: 600px;
          height: 200px;
 }
-/* #submit{background-color: rgb(43, 190, 176);
-        margin-top: 25px;
-        text-align: center;
-        color: white;
-} */
 #submit{background-color: rgb(43, 190, 176);
         height: 50px;
         width: 150px;
@@ -113,5 +197,4 @@ img:nth-child(odd){float: left;}
         font-size: 15px;
         font-weight: bold;
         color: white;
-
 }
