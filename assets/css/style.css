@@ -9,7 +9,7 @@ body{font-size: 28px;
         padding-right: 2.5in;
         background-image: url("../images/hypnotize.png");
 }
-#head1{background: rgb(43, 190, 176);
+#head1{background: rgb(43, 190, 176); 
         height: 100px;
         color: white;
         padding-top: .35in;
@@ -50,6 +50,14 @@ body{font-size: 28px;
         border-bottom-style: dashed;
         border-bottom-color: gray;
 }
+a:link{color: rgb(43, 190, 176);
+        text-decoration: none;
+}
+a:visited{color: rgb(43, 190, 176);
+} 
+a:hover{color: rgb(175, 165, 165);
+        text-decoration: underline;
+}
 /* for about */
 #about_image{float:left;
             padding-left: .25in;
@@ -71,14 +79,6 @@ body{font-size: 28px;
         text-align: center;
         padding-bottom: 50px;
         font-size: 18px;
-}
-a:link{color: rgb(43, 190, 176);
-        text-decoration: none;
-}
-a:visited{color: rgb(43, 190, 176);
-} 
-a:hover{color: rgb(175, 165, 165);
-        text-decoration: underline;
 }
 /* for portfolio */
 .container1 {position: relative;
