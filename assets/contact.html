@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en-us">
-    <head>
-        <meta charset = "UTF-8">
-        <link rel = "stylesheet" type = "text/CSS" href = "../assets/css/style.css">
-        <title>Contact</title>
-    </head>
-    <body>
-             <h1 id ="head1"> Mike Bixel </h1> 
-            <div id = "links">
-                <a href = "index.html">About</a>
-                <a href = "portfolio.html">Portfolio</a>
-                <a href = "contact.html">Contact</a>
-            </div>
-            <div class = "wrapper">    
-               <h2 class = "head2">Contact Me</h2>   
-                <form class = "contact_form">
-                    Name:<br>
-                    <input id="name" type="text" name="new_name"><br>
-                    Email:<br>
-                    <input id="email" type="text" name="new_email"><br>
-                    Message:<br>
-                    <textarea id="message" type="text" name="new_message"></textarea><br>
-                    <input id="submit" type="submit" value="Submit">
-                </form>
-       </div>
-       <div class = "footer">
-            <p>Mike Bixel 2018</p>
+<head>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" type = "text/CSS" href = "../assets/css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1 class = "head1"> Mike Bixel </h1> 
+        <div id = "links">
+            <a href = "index.html">About</a>
+            <a href = "portfolio.html">Portfolio</a>
+            <a href = "contact.html">Contact</a>
         </div>
-    </body>   
+        <div class = "wrapper">    
+            <h2 class = "head2">Contact Me</h2>   
+                <form id="contact-form">
+                    <ul>
+                      <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required="required">
+                      </li>
+                      <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                      </li>
+                      <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type message here..." required="required"></textarea>
+                      </li>
+                    </ul>
+                    <input type="submit">
+                  </form>
+            </form>
+    </div>
+    <div class = "footer">
+        <p>Mike Bixel 2018</p>
+    </div>
+</body>   
 </html> 
